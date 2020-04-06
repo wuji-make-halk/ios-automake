@@ -1,0 +1,22 @@
+2017-07-06 17:22:49,885 manager.py     :49   :DEBUG launch .DS_Store now....
+2017-07-06 17:22:49,885 manager.py     :72   :DEBUG python /Users/qf/Desktop/project/ios-automake2/apps/.DS_Store/.DS_Store_main.py
+2017-07-06 17:22:49,888 manager.py     :49   :DEBUG launch automake now....
+2017-07-06 17:22:49,888 manager.py     :72   :DEBUG python /Users/qf/Desktop/project/ios-automake2/apps/automake/automake_worker.py
+2017-07-06 17:22:49,893 manager.py     :142  :DEBUG start consumer[localhost:A:Queue:IosAutoMakeModuleMonitor]
+2017-07-06 17:22:49,900 manager.py     :150  :ERROR <class 'redis.exceptions.ConnectionError'> except raised : (u'Error 61 connecting to localhost:6379. Connection refused.',) 
+2017-07-06 17:22:50,902 manager.py     :150  :ERROR <class 'redis.exceptions.ConnectionError'> except raised : (u'Error 61 connecting to localhost:6379. Connection refused.',) 
+2017-07-06 17:22:51,910 manager.py     :150  :ERROR <class 'redis.exceptions.ConnectionError'> except raised : (u'Error 61 connecting to localhost:6379. Connection refused.',) 
+2017-07-06 17:22:52,914 manager.py     :150  :ERROR <class 'redis.exceptions.ConnectionError'> except raised : (u'Error 61 connecting to localhost:6379. Connection refused.',) 
+2017-07-06 17:22:53,920 manager.py     :150  :ERROR <class 'redis.exceptions.ConnectionError'> except raised : (u'Error 61 connecting to localhost:6379. Connection refused.',) 
+2017-07-06 17:22:54,922 manager.py     :150  :ERROR <class 'redis.exceptions.ConnectionError'> except raised : (u'Error 61 connecting to localhost:6379. Connection refused.',) 
+2017-07-06 17:24:05,877 manager.py     :49   :DEBUG launch .DS_Store now....
+2017-07-06 17:24:05,877 manager.py     :72   :DEBUG python /Users/qf/Desktop/project/ios-automake2/apps/.DS_Store/.DS_Store_main.py
+2017-07-06 17:24:05,880 manager.py     :49   :DEBUG launch automake now....
+2017-07-06 17:24:05,880 manager.py     :72   :DEBUG python /Users/qf/Desktop/project/ios-automake2/apps/automake/automake_worker.py
+2017-07-06 17:24:05,886 manager.py     :142  :DEBUG start consumer[115.28.137.190:A:Queue:IosAutoMakeModuleMonitor]
+2017-07-06 17:25:21,667 manager.py     :49   :DEBUG launch automake now....
+2017-07-06 17:25:21,667 manager.py     :72   :DEBUG python /Users/qf/Desktop/project/ios-automake2/apps/automake/automake_worker.py
+2017-07-06 17:25:21,672 manager.py     :142  :DEBUG start consumer[115.28.137.190:A:Queue:IosAutoMakeModuleMonitor]
+2017-07-06 17:39:18,771 manager.py     :49   :DEBUG launch automake now....
+2017-07-06 17:39:18,772 manager.py     :72   :DEBUG python /Users/qf/Desktop/project/ios-automake2/apps/automake/automake_worker.py
+2017-07-06 17:39:18,777 manager.py     :142  :DEBUG start consumer[115.28.137.190:A:Queue:IosAutoMakeModuleMonitor]

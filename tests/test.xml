@@ -1,0 +1,217 @@
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>task_create</name>
+    <seqid>123456</seqid>
+    <params>
+      <provider_type>1</provider_type >
+      <action_type>1</action_type >
+      <owner_id>6c362b2a-2754-4291-9ef9-a909c773718f</owner_id >
+      <task_reward>5</task_reward>
+      <max_do_times>4</max_do_times>
+      <task_name>test</task_name>
+      <task_img></task_img>
+      <task_account_id>2234</task_account_id>
+      <task_feed_id>2323</task_feed_id>
+      <task_description>测试2</task_description>
+      <can_auto>1</can_auto>
+      <request_ratenum>5</request_ratenum>
+      <task_reward_rate>1.5</task_reward_rate>
+      <action_link>ccc.bbb</action_link>
+    </params>
+  </action>
+</actions>
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>task_delete</name>
+    <seqid>123456</seqid>
+    <params>
+      <provider_type>1</provider_type >
+      <owner_id>6c362b2a-2754-4291-9ef9-a909c773718f</owner_id >
+      <task_account_id>2234</task_account_id>
+      <task_id>497c642e-700b-4083-a574-4d3fc2d7ab0c</task_id>
+    </params>
+  </action>
+</actions>
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>task_execute</name>
+    <seqid>123456</seqid>
+    <params>
+      <user_agent>PC</user_agent>
+      <member_id>6c362b2a-2754-4291-9ef9-a909c773718f</member_id>
+      <provider_nickname>general2k</provider_nickname>
+      <is_auto>0</is_auto>
+      <ratenum>4</ratenum>
+      <provider_type>1</provider_type >
+      <owner_id>87ac8fd7-981e-42db-8d24-b3cde713ebca</owner_id >
+      <task_account_id>2044509889</task_account_id>
+      <task_id>42537786-39bb-4e8c-9cf7-371c13fa7668</task_id>
+    </params>
+  </action>
+</actions>
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>showtaskinfo</name>
+    <seqid>123456</seqid>
+    <params>
+      <snsid>2095453148</snsid>
+    </params>
+  </action>
+</actions>
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>task_query</name>
+    <seqid>123456</seqid>
+    <params>
+      <user_agent>PC</user_agent >
+      <type>1</type >
+      <member_id>6c362b2a-2754-4291-9ef9-a909c773718f</member_id >
+      <provider_nickname>general2k</provider_nickname>
+      <action_type>1</action_type>
+      <provider_type>1</provider_type>
+      <ratenum>0</ratenum>
+    </params>
+  </action>
+</actions>
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>task_execute</name>
+    <seqid>123456</seqid>
+    <params>
+      <user_agent>PC</user_agent >
+      <task_id>123456</task_id >
+      <member_id>87ac8fd7-981e-42db-8d24-b3cde713ebca</member_id >
+      <provider_nickname>abc</provider_nickname>
+      <provider_type>1</provider_type>
+      <task_account_id>1111</task_account_id>
+      <is_auto>1</is_auto>
+      <ratenum>5</ratenum>
+    </params>
+  </action>
+</actions>
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>check_task</name>
+    <seqid>123456</seqid>
+    <params>
+      <member_id>04043838-203d-4d30-bc16-3a3c463daf3d</member_id >
+    </params>
+  </action>
+</actions>
+
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>member_point_modify_by_task</name>
+    <seqid>123456</seqid>
+    <params>
+      <owner_id>194e42f4-3401-4659-b88a-0bf793c7076e</owner_id>
+      <member_id>6c362b2a-2754-4291-9ef9-a909c773718f</member_id>
+      <task_reward>10</task_reward>
+      <task_tax>5</task_tax>
+      <history_id>123456</history_id>
+    </params>
+  </action>
+</actions>
+
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>member_point_modify_by_task</name>
+    <seqid>123456</seqid>
+    <params>
+      <owner_id>194e42f4-3401-4659-b88a-0bf793c7076e</owner_id>
+      <member_id>6c362b2a-2754-4291-9ef9-a909c773718f</member_id>
+      <task_reward>10</task_reward>
+      <task_tax>5</task_tax>
+      <history_id>123456</history_id>
+    </params>
+  </action>
+</actions>
+
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>provider_userinfo</name>
+    <seqid>on_getuserinfo_success</seqid>
+    <params>
+      <provider_type>1</provider_type>
+      <member_id>6c362b2a-2754-4291-9ef9-a909c773718f</member_id>
+      <provider_nickname>general2k</provider_nickname>
+      <userinfo>%7B%22api%22%3A%22com.taobao.client.user.getUserInfo%22%2C%22v%22%3A%22*%22%2C%22ret%22%3A%5B%22SUCCESS%3A%3A%E8%B0%83%E7%94%A8%E6%88%90%E5%8A%9F%22%5D%2C%22data%22%3A%7B%22rateNum%22%3A%224%22%2C%22sid%22%3A%222ee3d9371d9a307b5f680e21adf01dc9%22%2C%22logo%22%3A%22http%3A%2F%2Fwwc.taobaocdn.com%2Favatar%2Fget_avatar.do%3FuserId%3D50162319%26width%3D160%26height%3D160%26type%3Dsns%22%2C%22alipay%22%3A%7B%22amount%22%3A%220.00%22%2C%22bindMobile%22%3A%22false%22%2C%22katong%22%3A%22false%22%2C%22alipayAccount%22%3A%22general2k%40126.com%22%2C%22seesionId%22%3A%220%22%7D%2C%22nick%22%3A%22general2k%22%2C%22trade%22%3A%7B%22successBiz%22%3A%228%22%2C%22hasPaid%22%3A%220%22%2C%22toConfirmBiz%22%3A%221%22%2C%22refuandBiz%22%3A%220%22%2C%22toComment%22%3A%221%22%2C%22all%22%3A%2210%22%2C%22toPayBiz%22%3A%220%22%7D%2C%22alipayId%22%3A%220%22%2C%22availablePoint%22%3A%220%22%2C%22userLevel%22%3A%222%22%2C%22realName%22%3A%22%22%2C%22alipayEnable%22%3A%22true%22%7D%7D</userinfo>
+    </params>
+  </action>
+</actions>
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>snsid_query</name>
+    <seqid>on_getuserinfo_success</seqid>
+    <params>
+      <user_agent>PC</user_agent>
+      <maxcount>5</maxcount>
+      <provider_type>1</provider_type>
+      <provider_nickname>general2k</provider_nickname>
+    </params>
+  </action>
+</actions>
+
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>snsid_task_query</name>
+    <seqid>on_getuserinfo_success</seqid>
+    <params>
+      <user_agent>PC</user_agent>
+      <maxcount>5</maxcount>
+      <provider_type>1</provider_type>
+      <provider_nickname>general2k</provider_nickname>
+      <snsid>1111</snsid>
+    </params>
+  </action>
+</actions>
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>avatar_update</name>
+    <seqid>on_getuserinfo_success</seqid>
+    <params>
+      <owner_id>12333</owner_id>
+      <provider_type>1</provider_type>
+      <sns_name>%E5%A4%A7%E6%96%87%E4%BA%8C%E6%96%87</sns_name>
+      <sns_img>123232</sns_img>
+      <sns_description>fdsfs</sns_description>
+      <snsid>1111</snsid>
+    </params>
+  </action>
+</actions>
+
+<actions>
+  <action>
+    <version>1.0</version>
+    <name>avatar_query</name>
+    <seqid>on_getuserinfo_success</seqid>
+    <params>
+      <owner_id>12333</owner_id>
+      <provider_type>1</provider_type>
+    </params>
+  </action>
+</actions>

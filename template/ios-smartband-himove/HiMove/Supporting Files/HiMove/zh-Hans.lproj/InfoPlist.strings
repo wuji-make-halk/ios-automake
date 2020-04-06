@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  CZJKBand
+
+  Created by 张志鹏 on 16/5/7.
+  Copyright © 2016年 SXR. All rights reserved.
+*/
+CFBundleDisplayName="Hi Move";
+NSLocationAlwaysUsageDescription="用于记录户外运动的历史轨迹";
+NSPhotoLibraryUsageDescription = "是否允许此App访问你的相册?";
+NSCameraUsageDescription = "是否允许此App访问你的相机?";
+NSBluetoothPeripheralUsageDescription = "是否允许此App访问你的蓝牙?";
+NSAppleMusicUsageDescription = "是否允许此App访问你的苹果音乐?";
+NSHealthShareUsageDescription = "是否允许此App访问你的运动与健康?";
+NSHealthUpdateUsageDescription = "是否允许此App修改你的运动与健康?";

@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'HiMove' do
+pod 'AFNetworking', '~> 3.0'
+pod 'Masonry', '~> 1.0.0'
+pod 'Bugly'
+pod 'JPush'
+pod "Qiniu", "~> 7.1"
+end

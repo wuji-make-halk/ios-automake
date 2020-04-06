@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  CZJKBand
+
+  Created by 张志鹏 on 16/5/7.
+  Copyright © 2016年 SXR. All rights reserved.
+*/
+CFBundleDisplayName="Hi Move";
+NSLocationAlwaysUsageDescription="For historical track record outdoor sports";
+NSPhotoLibraryUsageDescription = "If allow this App to access your album?";
+NSCameraUsageDescription = "If allow this App to access your Camera?";
+NSBluetoothPeripheralUsageDescription = "If allow this App to access your Bluetooth?";
+NSAppleMusicUsageDescription = "If allow this App to access your Apple Music?";
+NSHealthShareUsageDescription = "If allow this App to access your Health Share?";
+NSHealthUpdateUsageDescription = "If allow this App to update your Health Data?";

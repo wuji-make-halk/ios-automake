@@ -1,0 +1,55 @@
+GET /rest/h5ApiUpdate.do?callback=jsonp3&type=jsonp&api=com.taobao.client.user.getUserInfo&data=%7B%7D&v=1.0&appKey=12574478&t=1383617623976&sign=cdbe2ca8314599caf7f5d9b1ccef68b6 HTTP/1.1
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
+
+Accept: */*
+
+Referer: http://h5.m.taobao.com/awp/mtb/mtb.htm?v=0
+
+Cookie: lumct=1381479421862; cna=CJveCoYlAjoCAdoS+rHuDsJM; wud=wud; _tb_token_=uxbzmLqVim; supportWebp=false; w_sec_step=step_login; ockeqeudmj=njkFy6A%3D; _w_tb_nick=gabrielliao; _w_al_f=1; unb=39232502; imewweoriw=jPhOjOmzg4w3gFbTLMBjVAzTNcH0nbLr%2Fa7GoB14FtU%3D; WAPFDFDTGFG=%2B4dRjM5djSecKyo4JwyfmJ2Wk7iKyBzh9paQSiYo%2F4%2BcG%2BUf%2F8o98x1pKuOhu%2FzS%2B2GF8w%3D%3D; _m_h5_tk=5951f6a8afce01cf2ae8a6699dcc628f_1383622120355; _m_h5_tk_enc=55c2aa2ad9f4dcf1604d3b7234b938ce
+
+Connection: Keep-Alive
+
+Accept-Encoding: gzip
+
+Accept-Language: zh-CN,en,*
+
+Host: api.m.taobao.com
+
+
+
+HTTP/1.1 200 OK
+
+Server: nginx
+
+Date: Tue, 05 Nov 2013 02:13:40 GMT
+
+Content-Type: application/json;charset=UTF-8
+
+Content-Length: 608
+
+Connection: keep-alive
+
+X-Powered-By: m.taobao.com
+
+m: bXRvcDAzNzA3MC5jbTQ=
+
+TBTrack-Id: du=39232502
+
+SESSION-STATUS: 0
+
+x-server-rt: 2
+
+WapVersion: aXBob25l
+
+MTOP-ST: SUC_%3ASUCCESS%3A%3A%E8%B0%83%E7%94%A8%E6%88%90%E5%8A%9F
+
+MTOP-SERVER-HOST: d21hYzAxMDA5NjAwODA3MS5jbTMkMTAuOTYuOC43MQ==
+
+Mres-length: 608
+
+x-paramkey: com.taobao.client.user.getUserInfo
+
+
+
+jsonp3({"api":"com.taobao.client.user.getUserInfo","v":"*","ret":["SUCCESS::............"],"data":{"rateNum":"5","sid":"b074409d5c589cdd2c7e3aa1472b364f","logo":"http://wwc.taobaocdn.com/avatar/get_avatar.do?userId=39232502&width=160&height=160&type=sns","alipay":{"amount":"0.00","bindMobile":"false","katong":"false","alipayAccount":"gabriel.liao@gmail.com","seesionId":"0"},"nick":"gabrielliao","trade":{"successBiz":"13","hasPaid":"0","toConfirmBiz":"1","refuandBiz":"0","toComment":"0","all":"13","toPayBiz":"0"},"alipayId":"0","availablePoint":"0","userLevel":"3","realName":"","alipayEnable":"true"}})
